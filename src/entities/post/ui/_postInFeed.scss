@@ -1,0 +1,34 @@
+.link-to-post {
+  width: 40%;
+  margin: 10px 0;
+}
+.post-in-feed {
+  width: 100%;
+  height: 130px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(242, 230, 240);
+  overflow: hidden;
+  background-image: linear-gradient(
+    to top,
+    rgb(226, 164, 222),
+    rgba(61, 34, 56, 0)
+  );
+  background-size: 100%;
+
+  &__title,
+  &__body {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  &__title {
+    color: rgb(108, 21, 89);
+    font-size: 25px;
+    -webkit-line-clamp: 1;
+  }
+  &__body {
+    -webkit-line-clamp: 2;
+  }
+}

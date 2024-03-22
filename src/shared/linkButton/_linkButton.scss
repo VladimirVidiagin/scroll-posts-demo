@@ -1,0 +1,15 @@
+.link-button {
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #800000;
+  border-radius: 20px;
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+  transition: background-color 0.3s;
+  &:hover {
+    background-color: #a52a2a;
+  }
+}
