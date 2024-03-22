@@ -1,0 +1,7 @@
+@import "../src/app/globalStyles";
+
+@import "../src/entities/post/ui/postInFeed", "../src/widgets/header/ui/header",
+  "../src/widgets/posts/postsFeed/ui/postsFeed",
+  "../src/widgets/posts/сurrentPost/ui/currentPost",
+  "../src/shared/errorMessage/errorMessage",
+  "../src/shared/linkButton/linkButton", "../src/shared/loader/loader";
