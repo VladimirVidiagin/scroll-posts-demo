@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { Provider } from "react-redux";
 import { store } from "../store";
 import FeedPage from "../pages/feedPage";
@@ -8,13 +8,13 @@ import { Header } from "../widgets/header/index";
 function App() {
   return (
     <Provider store={store}>
-      <BrowserRouter>
+      <Router>
         <Header />
         <Routes>
           <Route path="/" element={<FeedPage />} />
           <Route path="/posts/:id" element={<PostPage />} />
         </Routes>
-      </BrowserRouter>
+      </Router>
     </Provider>
   );
 }
