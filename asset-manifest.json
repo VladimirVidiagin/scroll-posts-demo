@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/scroll-posts-demo/static/js/main.79afc60d.js",
+    "main.js": "/scroll-posts-demo/static/js/main.3e938f9d.js",
     "index.html": "/scroll-posts-demo/index.html",
-    "main.79afc60d.js.map": "/scroll-posts-demo/static/js/main.79afc60d.js.map"
+    "main.3e938f9d.js.map": "/scroll-posts-demo/static/js/main.3e938f9d.js.map"
   },
   "entrypoints": [
-    "static/js/main.79afc60d.js"
+    "static/js/main.3e938f9d.js"
   ]
 }
